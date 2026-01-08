@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.hero-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 120px 12px 120px;
+    max-width: 1600px;
+    width: 100%;
+    box-shadow: 0 4px 10px gray;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+
+}
+
+
+.hero-nav .nav-logo {
+    max-width: 130px;
+}
+
+.hero-nav .nav-achor {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.hero-nav .nav-achor:hover {
+    background-color: rgba(128, 128, 128, 0.366);
+}
+
+.btn-nav {
+    max-width: 166px;
+    height: 44px;
+    background-color: #30B868;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.btn-nav:hover {
+    background-color: rgba(55, 185, 100, 0.811);
+    cursor: grab;
+}
+
+.hero-banner {
+    background-image: url("../assets/hero-bg.png");
+    padding: 205px 700px 205px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.hero-banner .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-banner .hero-banner-p1 {
+    padding: 5px;
+    background-color: white;
+    font-size: 12px;
+    color: #30B868;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.hero-banner .hero-banner-p1:hover {
+    background-color: rgba(128, 128, 128, 0.313);
+    cursor: grab;
+}
+
+.hero-banner .banner-firsth1-text {
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 70px;
+    white-space: nowrap;
+    color: white;
+}
+
+.hero-banner .banner-color-text {
+    color: #30B868;
+    display: inline-block;
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.hero-banner .hero-banner-p2 {
+    margin-top: 16px;
+    white-space: nowrap;
+    font-size: 17px;
+    color: gainsboro;
+}
+
+.hero-banner .hero-banner-achor {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner .hero-banner-achor .banner-button1 {
+    width: 230px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background-color: #30B868;
+    border-radius: 6px;
+    border: none;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+}
+
+.hero-banner .hero-banner-achor .banner-button1:hover {
+    background-color: rgba(55, 185, 100, 0.746);
+    cursor: grab;
+}
+
+
+.hero-banner .hero-banner-achor .banner-button2 {
+    width: 230px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid white;
+    padding: 16px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.hero-banner .hero-banner-achor .banner-button2:hover {
+    background-color: rgba(128, 128, 128, 0.649);
+    cursor: grab;
+}
+
+.card-section {
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+
+.card-sectionh1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-section .card-sectionp {
+    margin-top: 16px;
+    font-size: 15px;
+    color: #627382;
+}
+
+.card-details {
+    display: flex;
+    margin-top: 30px;
+    padding: 0 120px 120px 120px;
+
+}
+
+.card {
+    padding: 68px 23px 68px 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 322px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.card-image {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.card h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.card p {
+    color: #627382;
+    font-size: 14px;
+    margin-top: 15px;
+}
