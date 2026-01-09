@@ -15,6 +15,7 @@ body {
     font-optical-sizing: auto;
 }
 
+/* hero section */
 .hero-nav {
     display: flex;
     justify-content: space-between;
@@ -168,6 +169,8 @@ body {
     cursor: grab;
 }
 
+/* card section */
+
 .card-section {
     margin: 0 auto;
     margin-top: 60px;
@@ -201,9 +204,15 @@ body {
     justify-content: center;
     height: 300px;
     width: 322px;
-    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.2);
     margin-right: 15px;
     border-radius: 5px;
+
+}
+
+.card:hover {
+    background-color: #30b86940;
+    cursor: grab;
 }
 
 .card-image {
@@ -223,4 +232,136 @@ body {
     color: #627382;
     font-size: 14px;
     margin-top: 15px;
+}
+
+/* knowledge section */
+
+.knowledge-section .knowledge-details {
+    display: flex;
+    padding: 120px;
+}
+
+.knowledge-section .knowledge-details .knowledge-img {
+    height: 600px;
+    max-width: 600px;
+    margin-right: 60px;
+}
+
+.knowledge-section .knowledge-details .knowledge-text {
+    padding: 120px;
+}
+
+.knowledge-section .knowledge-details .knowledge-p1 {
+    color: #30B868;
+    font-size: 18px;
+}
+
+.knowledge-section .knowledge-details .knowledge-p2 {
+    color: #627382;
+    font-size: 15px;
+    margin-top: 16px;
+
+}
+
+.knowledge-section .knowledge-details h1 {
+    font-size: 45px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.knowledge-section .knowledge-details h6 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.check-icon {
+    color: #30B868;
+}
+
+/* advance section */
+
+.advance-section .advance-details {
+    text-align: center;
+    background-color: rgba(247, 246, 242, 1);
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.advance-section .advance-details h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.advance-section .advance-details .advance-p1 {
+    font-size: 16px;
+    margin-top: 16px;
+    color: #627382;
+    text-align: center;
+}
+
+.advance-section .advance-details .advance-btn {
+    margin-top: 24px;
+    max-width: 180px;
+    padding: 16px;
+    background-color: #30B868;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.advance-section .advance-details .advance-btn:hover {
+    background-color: #30b8699d;
+    cursor: grab;
+}
+
+.advance-section .advance-details .advance-p2 {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #627382;
+}
+
+/* footer section */
+
+.footer {
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px 120px 30px;
+    margin-top: 120px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-details img {
+    max-width: 120px;
+}
+
+.footer .footer-details .footer-social {
+    color: white;
+}
+
+.footer-buttom-text {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: white;
+}
+
+.footer .footer-details .p1 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.social-link:hover {
+    background-color: #627382;
+    cursor: grab;
 }
